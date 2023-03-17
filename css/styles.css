@@ -1,0 +1,140 @@
+
+body{
+    /* background-color: pink; */
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+    color: #66BFBF;
+}
+h2{
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight:800;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    line-height: 2;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    padding-top: 150px;
+    position: relative;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.profile{
+    margin-top: 50px;
+}
+
+
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.avatar{
+    display:block;
+    width: 10%;
+    height: auto;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 200px auto 200px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.skill1{
+    float:left;
+    margin-right: 30px;
+}
+.skill2, .skill3{
+    float:right;
+    margin-left: 30px;
+}
+
+hr{
+    border-style: none;
+    border-top: 8px dotted lightgrey;
+    width: 5%;
+    margin-bottom: 100px;
+}
+
+.introduce{
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+    margin-bottom: 100px;
+}
+
+button{
+    /* background-color: rgb(44, 189, 247); */
+    /* background-image: -moz-linear-gradient(top, #11cdd4, #11999e); */
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.contact-me a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+button:hover{
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+.bottom-container a{
+    color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 1.5rem 0;
+    font-weight:800;
+}
+
+.bottom-container p{
+    color: #EAF6F6;
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
+li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.skill1, .skill2, .skill3{
+    width: 25%;
+}
